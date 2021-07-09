@@ -100,7 +100,7 @@
                             <input id=" form_lastname " type=" email " name=" email " class=" form-control bg-white border-0 form-control-sm m-0 rounded-pill " placeholder=" Your email adress " required=" required " data-error=" Valid E-mail
 is required. ">
                             <div class=" help-block with-errors "></div>
-                            <button type=" submit " class=" btn btn-gradiental rounded-circle px-3 "><i class="fa fa-paper-plane" style="color: white;"></i></button>
+                            <button type=" submit " class=" btn btn-gradiental rounded-circle px-3 "><i class="far fa-paper-plane" style="color: white;"></i></button>
                         </div>
                     </form>
                     <!----------------Newsletter------------------->
