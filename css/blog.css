@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    background-position: center;
+    height: auto;
+    font-family: 'Livvic-Regular', sans-serif;
+}
+
+.body.a {
+    font-family: 'Livvic-Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0a0a0a;
+    display: block;
+}
+
+.footer .footer-top {
+    padding: 92px 0 0 100px;
+}
+
+.footer.p {
+    font-family: 'Livvic-Light', sans-serif;
+    font-size: 10px;
+}
+
+.footer.a {
+    font-family: 'Livvic-Light';
+}
+
+.footer.h5 {
+    font-family: 'Livvic-Bold';
+    font-weight: 600;
+}
+
+.btn-gradiental {
+    /* fallback for old browsers */
+    background-color: #1b47ad;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-image: -webkit-linear-gradient(to right, rgba(13, 48, 129), rgba(69, 135, 226, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right, rgb(13, 48, 129), rgba(69, 135, 226, 1));
+}
+
+.btn-gradiental:hover {
+    /* fallback for old browsers */
+    background-color: #1b47ad;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-image: -webkit-linear-gradient(to left, rgba(13, 48, 129), rgba(69, 135, 226, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to left, rgba(13, 48, 129), rgba(69, 135, 226, 1));
+}
+
+.bg-grey {
+    background-color: #f6f7f9 !important;
+}
+
+hr1 {
+    color: blue;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.rounded-square {
+    border-radius: 1rem !important;
+}
+
+.blogcard {
+    background-image: url(/img/1.jpg);
+}
+
+.cardd {
+    background-image: image(url(/img/1.jpg));
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card1 a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
