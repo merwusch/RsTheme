@@ -106,16 +106,16 @@ include "includes/header.php";
                         $post_image = $row["post_image"];
                     ?>
 
-                        <div class="card1 border-0 m-1">
+                        <div class="card1 border-0 m-1 ">
                             <div class="row">
-                                <div class="col-4">
+                                <div class="col-4 mt-3">
                                     <a href="#">
                                         <?php echo $post_image ?>
                                     </a>
 
                                 </div>
                                 <div class="col-8">
-                                    <div class="card-body p-3 ">
+                                    <div class="card-body">
                                         <a href="#" class="text-decoration-none text-dark"> <?php echo $post_title ?> </a>
                                         <p class="card-text"><small class="text-muted"> <?php echo $post_date ?> </small></p>
                                     </div>
@@ -127,91 +127,6 @@ include "includes/header.php";
 
                     <?php } ?>
 
-
-
-
-                    <!--
-
-                        <div class="card1 border-0 m-1">
-                            <div class="row">
-                                <div class="col-4">
-                                    <a href="#">
-                                        <img src="img/1.jpg" class="m-3 img-thumbnail" style="height: auto ; width: 10rem;" alt="...">
-                                    </a>
-
-                                </div>
-                                <div class="col-8">
-                                    <div class="card-body p-3 ">
-                                        <a href="#" class="text-decoration-none text-dark">Pen Source Job Report how More
-                                            Openings Fewer</a>
-                                        <p class="card-text"><small class="text-muted">January 21, 2020</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <hr />
-
-                        <div class="card1 border-0 m-1">
-                            <div class="row">
-                                <div class="col-4">
-                                    <a href="#">
-                                        <img src="img/2.jpg" class="m-3 img-thumbnail" style="height: auto ; width: 10rem;" alt="...">
-                                    </a>
-
-                                </div>
-                                <div class="col-8">
-                                    <div class="card-body p-3 ">
-                                        <a href="#" class="text-decoration-none text-dark">Pen Source Job Report how More
-                                            Openings Fewer</a>
-                                        <p class="card-text"><small class="text-muted">January 21, 2020</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <hr />
-
-                        <div class="card1 border-0 m-1">
-                            <div class="row">
-                                <div class="col-4">
-                                    <a href="#">
-                                        <img src="img/3.jpg" class="m-3 img-thumbnail" style="height: auto ; width: 10rem;" alt="...">
-                                    </a>
-
-                                </div>
-                                <div class="col-8">
-                                    <div class="card-body p-3 ">
-                                        <a href="#" class="text-decoration-none text-dark">Pen Source Job Report how More
-                                            Openings Fewer</a>
-                                        <p class="card-text"><small class="text-muted">January 21, 2020</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <hr />
-
-                        <div class="card1 border-0 m-1">
-                            <div class="row">
-                                <div class="col-4">
-                                    <a href="#">
-                                        <img src="img/4a.jpg" class="m-3 img-thumbnail" style="height: auto ; width: 10rem;" alt="...">
-                                    </a>
-
-                                </div>
-                                <div class="col-8">
-                                    <div class="card-body p-3 ">
-                                        <a href="#" class="text-decoration-none text-dark">Pen Source Job Report how More
-                                            Openings Fewer</a>
-                                        <p class="card-text"><small class="text-muted">January 21, 2020</small></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                -->
 
 
                 </div>

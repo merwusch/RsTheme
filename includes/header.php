@@ -6,11 +6,11 @@
 <html lang="en">
 
 <head>
-<script src="https://kit.fontawesome.com/77b7d0f569.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/77b7d0f569.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;500;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/contact.css">
-    
+
 </head>
 
 
@@ -41,20 +41,20 @@
                             <li class="contact-part">
                                 <i class="fa fa-map-marked-alt"></i>
                                 <span class="contact-info">
-                                <span>Address</span> 05 kandi BR. New York
+                                    <span>Address</span> 05 kandi BR. New York
                                 </span>
                             </li>
                             <li class="contact-part">
                                 <i class="fa fa-envelope"></i>
                                 <span class="contact-info">
-                                <span>E-mail</span>
-                                <a href="#"> support@merwusch.com</a>
+                                    <span>E-mail</span>
+                                    <a href="#"> support@merwusch.com</a>
                                 </span>
                             </li>
                             <li class="contact-part no-border">
                                 <i class="fa fa-phone"></i>
                                 <span class="contact-info">
-                                <span>Phone</span> (123) 456 7890
+                                    <span>Phone</span> (123) 456 7890
                                 </span>
                             </li>
                         </ul>
@@ -98,13 +98,13 @@
                         <li><a class="text-dark" href="pages.php">Single Team</a></li>
                         <li><a class="text-dark" href="pages.php">Case Studies</a></li>
                         <li><a class="text-dark" href="pages.php">Shop</a></li>
-                        
+
                         <ul class="sub-menu">
-                        <li><a class="text-dark" href="#">Shop</a></li>
-                        <li><a class="text-dark" href="#">Shop Single</a></li>
-                        <li><a class="text-dark" href="#">Cart</a></li>
-                        <li><a class="text-dark" href="#">Checkout</a></li>
-                        <li><a class="text-dark" href="myaccount.php">My Account</a></li>
+                            <li><a class="text-dark" href="#">Shop</a></li>
+                            <li><a class="text-dark" href="#">Shop Single</a></li>
+                            <li><a class="text-dark" href="#">Cart</a></li>
+                            <li><a class="text-dark" href="#">Checkout</a></li>
+                            <li><a class="text-dark" href="myaccount.php">My Account</a></li>
                         </ul>
 
                         <li><a class="text-dark" href="pages.php">Pricing</a></li>
@@ -142,4 +142,3 @@
         </nav>
 
     </navbar>
-

@@ -188,87 +188,38 @@ is required. ">
                     </h5>
                     <hr />
 
-                    <div class="card1 border-0 m-1">
-                        <div class="row">
-                            <div class="col-4">
-                                <a href="#">
-                                    <img src="img/1.jpg" class="m-3 img-thumbnail" style="height: auto ; width: 10rem;" alt="...">
-                                </a>
+                    
+                    <?php
+                    $sql_query = "SELECT * FROM posts";
+                    $select_all_posts = mysqli_query($conn, $sql_query);
 
-                            </div>
-                            <div class="col-8">
-                                <div class="card-body p-3 ">
-                                    <a href="#" class="text-decoration-none text-dark">Pen Source Job Report how
-                                        More
-                                        Openings Fewer</a>
-                                    <p class="card-text"><small class="text-muted">January 21, 2020</small></p>
+
+                    while ($row = mysqli_fetch_assoc($select_all_posts)) {
+                        $post_date = $row["post_date"];
+                        $post_title = $row["post_title"];
+                        $post_image = $row["post_image"];
+                    ?>
+
+                        <div class="card1 border-0 m-1 ">
+                            <div class="row">
+                                <div class="col-4 mt-3">
+                                    <a href="#">
+                                        <?php echo $post_image ?>
+                                    </a>
+
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <a href="#" class="text-decoration-none text-dark"> <?php echo $post_title ?> </a>
+                                        <p class="card-text"><small class="text-muted"> <?php echo $post_date ?> </small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <hr />
+                        <hr />
 
-                    <div class="card1 border-0 m-1">
-                        <div class="row">
-                            <div class="col-4">
-                                <a href="#">
-                                    <img src="img/2.jpg" class="m-3 img-thumbnail" style="height: auto ; width: 10rem;" alt="...">
-                                </a>
-
-                            </div>
-                            <div class="col-8">
-                                <div class="card-body p-3 ">
-                                    <a href="#" class="text-decoration-none text-dark">Pen Source Job Report how
-                                        More
-                                        Openings Fewer</a>
-                                    <p class="card-text"><small class="text-muted">January 21, 2020</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr />
-
-                    <div class="card1 border-0 m-1">
-                        <div class="row">
-                            <div class="col-4">
-                                <a href="#">
-                                    <img src="img/3.jpg" class="m-3 img-thumbnail" style="height: auto ; width: 10rem;" alt="...">
-                                </a>
-
-                            </div>
-                            <div class="col-8">
-                                <div class="card-body p-3 ">
-                                    <a href="#" class="text-decoration-none text-dark">Pen Source Job Report how
-                                        More
-                                        Openings Fewer</a>
-                                    <p class="card-text"><small class="text-muted">January 21, 2020</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr />
-
-                    <div class="card1 border-0 m-1">
-                        <div class="row">
-                            <div class="col-4">
-                                <a href="#">
-                                    <img src="img/4a.jpg" class="m-3 img-thumbnail" style="height: auto ; width: 10rem;" alt="...">
-                                </a>
-
-                            </div>
-                            <div class="col-8">
-                                <div class="card-body p-3 ">
-                                    <a href="#" class="text-decoration-none text-dark">Pen Source Job Report how
-                                        More
-                                        Openings Fewer</a>
-                                    <p class="card-text"><small class="text-muted">January 21, 2020</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php } ?>
 
 
 
@@ -286,22 +237,20 @@ is required. ">
 
                 <div class="card1 mx-4 mb-4 border-0 bg-transparent">
 
-                    <a href="#" style="font-family: 'Livvic-regular'; font-size: 15px; font-weight: 600 ; " class="text-decoration-none text-dark">Application Testing</a>
-                    <hr />
+                <?php
 
-                    <a href="#" style="font-family: 'Livvic-regular'; font-size: 15px; font-weight: 600 ; " class="text-decoration-none text-dark">Artifical Intelligence</a>
-                    <hr />
+$sql_query = "SELECT * FROM categories";
+$select_all_categories = mysqli_query($conn, $sql_query);
 
-                    <a href="#" style="font-family: 'Livvic-regular'; font-size: 15px; font-weight: 600 ; " class="text-decoration-none text-dark">Digital Technology</a>
-                    <hr />
+while ($row = mysqli_fetch_assoc($select_all_categories)) {
+    $category_name = $row["category_name"];
 
-                    <a href="#" style="font-family: 'Livvic-regular'; font-size: 15px; font-weight: 600 ; " class="text-decoration-none text-dark">IT Services</a>
-                    <hr />
+    echo "<a href='#' class='text-decoration-none text-dark'>{$category_name}</a><br>";
+}
 
-                    <a href="#" style="font-family: 'Livvic-regular'; font-size: 15px; font-weight: 600 ; " class="text-decoration-none text-dark">Software Developement</a>
-                    <hr />
 
-                    <a href="#" style="font-family: 'Livvic-regular'; font-size: 15px; font-weight: 600 ; " class="text-decoration-none text-dark">Web Developement</a>
+?>
+
 
 
                 </div>
