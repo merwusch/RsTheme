@@ -1,9 +1,4 @@
-<?php
-
-include "includes/header.php";
-
-?>
-
+<?php include "includes/header.php"; ?>
 <div class="hero-image" style="background-image: url(img/11.jpg);">
     <div class="hero-text">
         <h1>About</h1>
@@ -12,10 +7,4 @@ include "includes/header.php";
         </p>
     </div>
 </div>
-
-
-<?php
-
-include "includes/footer.php";
-
-?>
+<?php include "includes/footer.php"; ?>

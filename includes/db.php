@@ -1,5 +1,4 @@
 <?php
-
 $db_host = "localhost";
 $db_user = "root";
 $db_password = "";
@@ -11,5 +10,4 @@ $conn->set_charset("utf8");
 if (!$conn) {
     die("Connection failed: s" . mysqli_connect_error());
 }
-
 ?>
